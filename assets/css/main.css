@@ -2014,6 +2014,11 @@ input, select, textarea {
 			display: none;
 		}
 
+/* Own implementation of a class to get the bitmoji pics side by side, very wonky */
+		.madeup {
+			margin-left: 9em;
+		}
+
 /* Image */
 
 	.image {
@@ -2022,7 +2027,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
-
+		/* causes images to be darker because of opacity change of 0.5
 		.image:before {
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
@@ -2038,7 +2043,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 100%;
-		}
+		} */
 
 		.image.thumb {
 			text-align: center;
